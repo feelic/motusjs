@@ -1,0 +1,7 @@
+<?php
+
+	//Database configuration
+	$host = "";
+	$user = "";
+	$pass = ""; 
+	$bdd = "";

@@ -1,0 +1,137 @@
+body {
+	padding:0;
+	margin:0;
+	font-family:ubuntu, sans-serif;
+}
+#head {
+	width:100%;
+	border-bottom:1px solid #ccc;
+	display:block;
+	float:left;
+	height:100px;
+}
+#menu {
+	list-style-type:none;
+}
+#menu li {
+	margin:10px 0;
+}
+#menu label {
+	width:120px;
+	display:inline-block;
+}
+#menu select {
+	width:120px;
+	display:inline-block;
+}
+
+#start {
+	/*color:#EEC;
+	background-color:#EE2266;*/
+	text-decoration:none;
+	border:1px solid #EEC;
+	width:100px;
+	line-height:24px;
+	height:28px;
+	display:inline-block;
+	text-align:center;
+	border-radius:3px;
+}
+/*
+#start:hover {
+	background-color:#DD1155;	
+}
+*/
+nav {
+	width:299px;
+	float:left;
+	border-right:1px solid #ccc;
+	border-top:1px solid #eee;
+	display:block;
+	min-height:800px;
+
+}
+
+page {
+	width: -moz-calc(100% - 302px);
+	width: -webkit-calc(100% - 302px);
+	width: calc(100% - 302px);
+	border-left:1px solid #eee;
+	border-top:1px solid #eee;
+	float:left;
+	display:block;
+	min-height:800px;
+}
+article {
+	margin:30px;
+	display:inline-block;
+	width: -moz-calc(40% - 60px);
+	width: -webkit-calc(40% - 60px);
+	width: calc(40% - 60px);
+	text-align:justify;
+}
+.row {
+	float:left;
+	clear:both;
+	display:inline-block;
+}
+page #info, page #board {
+	display:inline-block;
+	float:left;
+}
+
+page #board {
+	background-color:#0671D1;
+	border:1px solid white;
+}
+
+.cell {
+	height:50px;
+	line-height:50px;
+	font-size:16px;
+	font-weight:bold;
+	color:white;
+	width:50px;
+	display:inline-block;
+	float:left;
+	border:1px solid white;
+	text-shadow: black 0.1em 0.1em 0.2em
+}
+.cellcontent {
+    height: 100%;
+    width: 100%;
+	text-align:center;
+	text-transform:uppercase;
+}
+.cell .c_true {
+	background-color:#D8320C;
+}
+
+.cell.c_false {
+
+}
+
+.cell .c_mis {
+	background-color:#F1AB00;
+	border-radius:32px;
+}
+/*
+.cell {
+	padding:20px;
+	height:14px;
+	width:14px;
+	display:inline-block;
+	float:left;
+}
+.cell .c_true {
+	color:#D8320C;
+}
+
+.cell .c_false {
+	color:#0671D1;
+}
+
+.cell .c_mis {
+	color:#F1AB00;
+}
+*/
