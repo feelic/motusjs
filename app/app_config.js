@@ -1,5 +1,5 @@
 var config = {
 			useLocalServer : false,
-			defaultServerUrl : "http://feelic.fr/gamewordserver",
+			defaultServerUrl : "http://feelic.fr/gamewordserver/",
 			serverUrl : ""
 		}
