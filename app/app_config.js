@@ -1,5 +1,5 @@
 var config = {
 			useLocalServer : false,
-			defaultServerUrl : "http://feelic.fr/old/motus2/server/controller.php",
+			defaultServerUrl : "http://feelic.fr/gamewordserver",
 			serverUrl : ""
 		}
