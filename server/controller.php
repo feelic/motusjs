@@ -6,6 +6,7 @@ include ('db_connect.php');
 $motus = new Motus();
 
 session_start();
+header('Access-Control-Allow-Origin: *');
 
 if ($_REQUEST['action']=="getWord"){
 	if(isset($_REQUEST['length'])){
